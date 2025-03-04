@@ -1,0 +1,65 @@
+#################### What is .idea folder in Kotlin project? ####################
+
+-> The .idea folder is a hidden folder that is created by IntelliJ IDEA to store project-specific settings and configuration information.
+
+-> This folder should not be checked into version control, as it contains information that is specific to your local development environment.
+
+-> If you are working on a team, each team member will have their own .idea folder that is specific to their local development environment. & you should add the .idea folder to your .gitignore file to prevent it from being checked into version control.
+
+
+#################### WHat is out folder in Kotlin project? ####################
+
+-> The out folder is a hidden folder that is created by IntelliJ IDEA to store the output of the build process.
+
+-> This folder should not be checked into version control, as it contains generated files that can be recreated by the build process.
+
+-> If you are working on a team, each team member will have their own out folder that is specific to their local development environment. & you should add the out folder to your .gitignore file to prevent it from being checked into version control.
+
+
+#################### What is .gitignore file in Kotlin project? ####################
+
+-> The .gitignore file is a file that is used to specify which files and folders should be ignored by Git.
+
+-> This file should be checked into version control, as it contains information about which files and folders should be ignored by Git.
+
+-> The .gitignore file is used to prevent files and folders that are specific to your local development environment from being checked into version control.
+
+-> You can add files and folders to the .gitignore file by specifying their names or patterns in the file.
+
+
+#################### What is .iml file in Kotlin project? ####################
+
+-> The .iml file is an IntelliJ IDEA module file that contains information about the project modules, such as the module name, content roots, and dependencies.
+
+-> This file should not be checked into version control, as it contains information that is specific to your local development environment.
+
+-> If you are working on a team, each team member will have their own .iml file that is specific to their local development environment. & you should add the .iml file to your .gitignore file to prevent it from being checked into version control.
+
+
+#################### What is .gradle folder in Kotlin project? ####################
+
+-> The .gradle folder is a hidden folder that is created by Gradle to store project-specific settings and configuration information.
+
+-> This folder should not be checked into version control, as it contains information that is specific to your local development environment.
+
+-> If you are working on a team, each team member will have their own .gradle folder that is specific to their local development environment. & you should add the .gradle folder to your .gitignore file to prevent it from being checked into version control.
+
+
+#################### What is build.gradle file in Kotlin project? ####################
+
+-> The build.gradle file is a Gradle build script that is used to configure the build process for your project.
+
+-> This file contains information about the project dependencies, plugins, and tasks that are used to build and run the project.
+
+-> The build.gradle file is written in the Groovy programming language, which is a dynamic language that runs on the JVM.
+
+-> The build.gradle file should be checked into version control, as it contains information that is necessary to build and run the project.
+
+
+#################### What is settings.gradle file in Kotlin project? ####################
+
+-> The settings.gradle file is a Gradle settings file that is used to configure the settings for your project.
+
+-> This file contains information about the project name, version, and other project-specific settings.
+
+-> The settings.gradle file should be checked into version control, as it contains information that is necessary to configure the project settings.
