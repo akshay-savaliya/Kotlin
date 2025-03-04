@@ -1,0 +1,55 @@
+#################### What is Kotlin? ####################
+
+-> New programming language for Android development that is fully interoperable with Java.
+
+-> Targeted at the JVM, but can also be compiled to JavaScript or native code.
+
+-> Developed by JetBrains, the company behind IntelliJ IDEA.
+
+-> Kotlin is a statically typed language, which means that the type of every expression is known at compile time.
+
+-> Kotlin is a object-oriented language, which means that it supports object-oriented programming concepts such as classes, objects, and inheritance.
+
+-> Kotlin is a modern language that is designed to be concise, safe, and interoperable with Java.
+
+-> Kotlin is fully interoperable with Java, which means that you can use Kotlin and Java code together in the same project.
+
+
+#################### Why java (jdk) is required for kotlin? ####################
+
+-> Kotlin Files(.kt) are compiled to Java Bytecode(.class) which is executed by JVM.
+
+
+#################### what is main function in kotlin? ####################
+
+-> The main function is the entry point of a Kotlin program. It is the first function that is called when the program is run.
+
+-> The main function is defined using the fun keyword, followed by the name of the function (main), and a pair of parentheses that contain any arguments that the function takes.
+
+-> The main function takes an array of strings as an argument, which is used to pass command-line arguments to the program.
+
+-> The main function is defined in a class that is marked with the @file:JvmName annotation, which tells the Kotlin compiler to generate a Java class with the specified name.
+
+-> The main function is defined in a file that is named after the class that contains the main function, with the .kt extension.
+
+-> JVM looks for this method while executing the program. If it is not found, the program will not run.
+
+-> Example:
+fun main(args: Array<String>) {
+    println("Hello, World!")
+}
+
+
+#################### Kotlin Features ####################
+
+1. Concise: Kotlin is designed to be concise, which means that you can write less code to achieve the same functionality as in Java.
+
+2. Safe: Kotlin is designed to be safe, which means that it eliminates many of the common programming errors that can occur in Java.
+
+3. Interoperable: Kotlin is fully interoperable with Java, which means that you can use Kotlin and Java code together in the same project.
+
+4. Modern: Kotlin is a modern language that is designed to be easy to learn and use.
+
+5. Tool-friendly: Kotlin is designed to be tool-friendly, which means that it works well with popular development tools such as IntelliJ IDEA, Android Studio, and Eclipse.
+
+6. Open source: Kotlin is an open source language, which means that it is free to use and modify.
