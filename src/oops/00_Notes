@@ -1,0 +1,63 @@
+#################### OOPs (Object Oriented Programming) ####################
+-> OOPs is a programming paradigm that uses "objects" to design applications and computer programs.
+-> It is based on the concept of "objects" which can contain data in the form of fields (often known as attributes or properties), and code, in the form of procedures (often known as methods).
+-> OOPs allows the creation of objects, which can interact with one another, by calling methods.
+
+#################### Basic Concepts of OOPs ####################
+-> Class
+-> Object
+-> Inheritance
+-> Polymorphism
+-> Abstraction
+-> Encapsulation
+
+#################### Class ####################
+-> A class is a blueprint for creating objects (a particular data structure), providing initial values for state (member variables or attributes), and implementations of behavior (member functions or methods).
+-> A class is a user-defined data type that groups properties and methods in a single unit.
+-> A class is a template for objects, and an object is an instance of a class.
+
+#################### Object ####################
+-> An object is an instance of a class.
+-> When a class is defined, no memory is allocated but when it is instantiated (i.e. an object is created) memory is allocated.
+-> An object is a real-world entity.
+-> An object has a state and behavior.
+-> An object is created using the "new" keyword.
+
+#################### Inheritance ####################
+-> Inheritance is a mechanism in which one class acquires the properties and behavior of another class.
+-> It represents the "is-a" relationship.
+-> It is used for code reusability and method overriding.
+-> The class that inherits the properties and behavior is known as the "child" class, and the class whose properties and behavior are inherited is known as the "parent" class.
+
+// #################### Polymorphism ####################
+-> Polymorphism is a mechanism that allows one interface to be used for a general class of actions.
+-> It represents the "many forms" relationship.
+-> Polymorphism is of two types: Compile-time Polymorphism and Run-time Polymorphism.
+-> Method Overloading is an example of Compile-time Polymorphism, and Method Overriding is an example of Run-time Polymorphism.
+-> Method Overloading: It is a technique that allows a class to have more than one method having the same name but different parameters.
+-> Method Overriding: It is a technique that allows a subclass to provide a specific implementation of a method that is already provided by its superclass.
+
+// #################### Abstraction ####################
+-> Abstraction is a mechanism that hides the implementation details and shows only the functionality to the user.
+-> It represents the "is-a" relationship.
+-> It is used for code reusability and method overriding.
+
+// #################### Encapsulation ####################
+-> Encapsulation is a mechanism that binds the data (i.e. variables) and code (i.e. methods) together as a single unit.
+-> It represents the "has-a" relationship.
+-> It is used for data hiding and data protection.
+
+// #################### Access Modifiers ####################
+-> Access modifiers are keywords that set the accessibility of classes, interfaces, methods, and fields.
+-> There are four types of access modifiers in Kotlin:
+-> public: The class, interface, method, or field is accessible from any other class.
+-> protected: The class, interface, method, or field is accessible within the same package or by the subclasses of the class in any package.
+-> private: The class, interface, method, or field is accessible only within the same class.
+-> internal: The class, interface, method, or field is accessible only within the same module.
+
+// #################### Constructors ####################
+-> A constructor is a special member function that is called when an object is created.
+-> It is used to initialize the object.
+-> There are two types of constructors in Kotlin:
+-> Primary Constructor: It is defined in the class header.
+-> Secondary Constructor: It is defined inside the class body.
