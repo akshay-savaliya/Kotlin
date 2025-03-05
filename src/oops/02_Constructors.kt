@@ -43,6 +43,21 @@ private class Employee{
 }
 
 
+//    #################### Default Constructor (parameterless constructor) ####################
+//    If a class does not have a primary constructor or secondary constructor, then it is called a default constructor.
+//    A default constructor is created by the Kotlin compiler.
+
+private class  Person2{
+    var name: String = ""
+    var age: Int = 0
+
+    fun display(){
+        println("Name: $name")
+        println("Age: $age")
+    }
+}
+
+
 //    #################### Constructor Overloading ####################
 //    Constructor overloading is a concept of having more than one constructor in a class.
 //    Constructor overloading is used to create an object with different parameters.
@@ -82,8 +97,16 @@ fun main(){
     val employee1 = Employee("Harsh", 21)
     employee1.display()
 
+    //    Default Constructor
+    val person2 = Person2()
+    person2.name = "Rahul"
+    person2.age = 23
+    person2.display()
+
     //    Constructor Overloading
     val car = Automobile("BMW", 4, 5, "Petrol")
-    var car2 = Automobile("Audi", "Diesel")
+    car.display()
+    val car2 = Automobile("Audi", "Diesel")
+    car2.display()
 
 }
